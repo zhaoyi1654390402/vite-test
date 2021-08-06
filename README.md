@@ -299,4 +299,6 @@
     });
     app.mount('#app');
     ```
--   `npm i axios`集成 HTTP 工具 Axios,在 src 下创建 utils 目录来存储我们常用的工具函数,在utils下新建api/axios.ts文件,配置Axiosi前置/后置拦截器,在Axios.vue中尝试使用
+-   `npm i axios`集成 HTTP 工具 Axios,在 src 下创建 utils 目录来存储我们常用的工具函数,在utils下新建api/request.ts文件,配置Axios前置/后置拦截器
+-   `npm i @types/lodash lodash` 安装loadsh方便处理字符串、数组、对象,并在untils中单独封装补充自己常用的函数(underscore/ramda也可以,看个人代码习惯,更推荐ramda因为它几乎所有的函数都是自动柯里化的)
+-   

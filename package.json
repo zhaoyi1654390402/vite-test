@@ -1,0 +1,30 @@
+{
+	"name": "vite-ts-ele-demo",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "vue-tsc --noEmit && vite build",
+		"serve": "vite preview"
+	},
+	"dependencies": {
+		"@types/lodash": "^4.14.172",
+		"@vue/composition-api": "^1.1.0-beta.4",
+		"axios": "^0.21.1",
+		"element-plus": "^1.0.2-beta.65",
+		"lodash": "^4.17.21",
+		"sass": "^1.36.0",
+		"vite-plugin-babel-import": "^2.0.5",
+		"vite-plugin-style-import": "^1.0.1",
+		"vue": "^3.0.5",
+		"vue-router": "^4.0.10",
+		"vuex": "^4.0.2"
+	},
+	"devDependencies": {
+		"@types/node": "^16.4.13",
+		"@vitejs/plugin-vue": "^1.2.5",
+		"@vue/compiler-sfc": "^3.0.5",
+		"typescript": "^4.3.2",
+		"vite": "^2.4.3",
+		"vue-tsc": "^0.0.24"
+	}
+}
