@@ -13,7 +13,7 @@
 		"bignumber.js": "^9.0.1",
 		"dayjs": "^1.10.6",
 		"element-plus": "^1.0.2-beta.65",
-		"person-fun-tool": "^1.0.1",
+		"person-fun-tool": "^1.0.2",
 		"sass": "^1.36.0",
 		"vite-plugin-babel-import": "^2.0.5",
 		"vite-plugin-style-import": "^1.0.1",
