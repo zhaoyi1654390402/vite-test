@@ -1,7 +1,7 @@
 # Vue 3 + Typescript + Vite
-
+(摸鱼试试新的好玩的,仅框架搭建)
 # 升级 node 版本到最新稳定版(Vite 构建工具 Node.js 版本>= 12.0.0)
-
+- 个人使用的第二种,需要的时候自己切换版本
 -   方法一:`nvm install stable`使用 nvm 安装最新稳定版 Node.js
 -   方法二:
     -   github 搜索 Kenshin/gnvm,下载 gnvm.exe 放在 nodejs 文件夹(找不到就 cmd 命令行窗口输入`where node`会出现 nodejs 路径)下,`gnvm update latest`,等待更新(下载慢需要多等一会儿)
@@ -300,7 +300,7 @@
     app.mount('#app');
     ```
 -   `npm i axios`集成 HTTP 工具 Axios,在 src 下创建 utils 目录来存储我们常用的工具函数,在utils下新建api/request.ts文件,配置Axios前置/后置拦截器
--   `npm i @types/lodash lodash` 安装loadsh方便处理字符串、数组、对象,并在untils中单独封装补充自己常用的函数(underscore/ramda也可以,看个人代码习惯,更推荐ramda因为它几乎所有的函数都是自动柯里化的([原因](https://www.ruanyifeng.com/blog/2017/03/ramda.html)),我比较懒把之前封装好的loadsh的直接放进去了) 
+-   `npm i @types/lodash lodash` 安装loadsh方便处理字符串、数组、对象,并在untils中单独封装补充自己常用的函数(underscore/ramda也可以,看个人代码习惯,更推荐ramda因为它几乎所有的函数都是自动柯里化的([原因](https://www.ruanyifeng.com/blog/2017/03/ramda.html)),我把常用的lodash的和ramda里的方法挂载到原型链上封装然后自己发了个npm包装进去了`npm i person-fun-tool`,懒人快乐包get!) 
 -   `npm i dayjs` 安装时间处理库并引入(moment也行就是有点大,看个人习惯)
 -   `npm i bignumber.js`安装精度计算库并引入用于数据计算处理
 -   更多...
