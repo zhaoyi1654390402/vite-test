@@ -3,11 +3,11 @@ import App from './App.vue';
 import router from './router/index';
 import store from './store/index';
 import element from '@/utils/component';
-import 'element-plus/packages/theme-chalk/src/base.scss'
+import 'element-plus/packages/theme-chalk/src/base.scss';
 import '@/styles/index.scss';
 import api from '@/utils/api/request';
-import "@/utils/lodashFun/index";
-const BigNumber = require('bignumber.js');
+import 'person-fun-tool';
+import BigNumber from 'bignumber.js';
 
 const app = createApp(App);
 // 挂载全局属性或者方法，类似于 Vue.prototype.$api = api
